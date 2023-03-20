@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerLook : MonoBehaviour
 {
-    public bool TurnONCamera = false;
+    public bool TurnONCamera = true;
 
     public Camera cam;
     private float xRotation = 0f;
